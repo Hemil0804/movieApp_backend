@@ -1,9 +1,69 @@
-# Steps to start the Project
+# Node.js Demo Project
 
-1) copy .env.example file and rename as .env file 
-2) Pass jwt auth token secret key as  JWT_AUTH_TOKEN_SECRET in .env file
-3) Pass jwt expiry time as  JWT_EXPIRES_IN,DB_AUTH_URL in .env file
-4) Mongo DB URL  as DB_AUTH_URL in .env file
-5) jwt reset token expiry time as RESET_TOKEN_EXPIRES in .env file
-6) Install node modules using "npm i" command
-7) check the mongo conection and run the backend code by "node src/app.js"
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Project](#running-the-project)
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) >= 20.x
+- [npm](https://www.npmjs.com/) >= 10.x
+- [MongoDB](https://www.mongodb.com/) or your preferred database
+
+## Installation
+
+1. *Clone the repository:*
+    bash
+    git clone https://github.com/Hemil0804/movieApp_backend
+    cd your-repo-name
+    
+
+2. *Install dependencies:*
+    bash
+    npm install
+    
+
+## Configuration
+
+1. *Create a `.env` file:*
+
+    Copy the provided `.env.example` to `.env` and update the values as necessary:
+
+    bash
+    cp .env.example .env
+    
+
+    Example `.env` file:
+
+    plaintext
+    # Configuration
+    PORT=4000
+    APP_URL: "http://localhost:4000",
+    JWT_AUTH_TOKEN_SECRET: "Your JWT Authentication secret key",
+    JWT_EXPIRES_IN: "Token Expiry time", #For example 24h (for 24 hours)
+    DB_AUTH_URL: "Your mongo Database link with Database collection Name",
+    RESET_TOKEN_EXPIRES:"1h",
+
+
+## Running the Project
+1. *Start the Development Server*
+
+    Start the development server:
+
+    bash
+    npm start
+    
+
+    The server should now be running at `http://localhost:4000`.
+
+
+Now you're all set to build awesome movie backend server! 🌟
+
+For more details, visit [MultiQoS.](https://multiqos.com/)
+Contact us for collaboration or support:
+Email: biz@multiqos.com
