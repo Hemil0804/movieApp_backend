@@ -40,24 +40,28 @@ Before you begin, ensure you have the following installed:
 
     Example `.env` file:
 
-   **PORT**: `4000`
-   **APP_URL**: `"http://localhost:4000"`
-   **JWT_AUTH_TOKEN_SECRET**: `"Your JWT Authentication secret key"`
-   **JWT_EXPIRES_IN**: `"Token Expiry time"` (For example, `24h` for 24 hours)
-   **DB_AUTH_URL**: `"Your MongoDB link with database collection name"`
-   **RESET_TOKEN_EXPIRES**: `"1h"`
+    **PORT**: `4000`  
+
+    **APP_URL**: `"http://localhost:4000"`  
+
+    **JWT_AUTH_TOKEN_SECRET**: `"Your JWT Authentication secret key"`  
+
+    **JWT_EXPIRES_IN**: `"Token Expiry time"` (For example, `24h` for 24 hours)  
+
+    **DB_AUTH_URL**: `"Your MongoDB link with database collection name"`  
+
+    **RESET_TOKEN_EXPIRES**: `"1h"`  
 
 
 ## Running the Project
 1. *Start the Development Server*
 
-    Start the development server:
-
-    bash
+    ```bash
     npm start
+    ```
+The server should now be running at `http://localhost:4000`.
     
 
-    The server should now be running at `http://localhost:4000`.
 
 
 Now you're all set to build awesome movie backend server! 🌟
