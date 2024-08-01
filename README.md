@@ -43,11 +43,12 @@ Before you begin, ensure you have the following installed:
     plaintext
     # Configuration
     PORT=4000
-    APP_URL: "http://localhost:4000",
-    JWT_AUTH_TOKEN_SECRET: "Your JWT Authentication secret key",
-    JWT_EXPIRES_IN: "Token Expiry time", #For example 24h (for 24 hours)
-    DB_AUTH_URL: "Your mongo Database link with Database collection Name",
-    RESET_TOKEN_EXPIRES:"1h",
+    APP_URL="http://localhost:4000"
+    JWT_AUTH_TOKEN_SECRET="Your JWT Authentication secret key"
+    JWT_EXPIRES_IN="Token Expiry time" # For example, 24h (for 24 hours)
+    DB_AUTH_URL="Your MongoDB link with database collection name"
+    RESET_TOKEN_EXPIRES="1h"
+
 
 
 ## Running the Project
