@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 
 1. *Clone the repository:*
     bash
-    git clone https://github.com/Hemil0804/movieApp_backend
+    git clone https://github.com/MultiQoSTechnologies/movieApp_backend
     cd your-repo-name
     
 
