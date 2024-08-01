@@ -1,0 +1,20 @@
+{
+	"SomethingWentWrongPleaseTryAgain": "Something went wrong please try again",
+	"userLoggedInSuccessfully": "User logged in successfully",
+	"emailOrPasswordIsWrong": "You enter wrong email or password",
+	"movieListSuccess": "Movie List is here.",
+	"movieListEmpty": "your Movie List is empty.",
+	"userMovieDoesNotExists": "No movie exist with this Id",
+	"InvalidToken": "Token is invalid",
+	"TokenExpired": "Token is Expired",
+	"validationYearMax": "validationYearMax",
+	"movieaddedSuccess": "Movie added to your list successfully.",
+	"movieUpdatedSuccess": "Your Movie data updated successfully.",
+	"movieDataSuccess": "Here it your movie data",
+	"movieDataEmpty": "No Data Found",
+	"validationTitleRequired": "Movie Title should not be empty",
+	"validationYearBase": "Publishing year should not be empty",
+	"validationPasswordRequired": "Password should not be empty",
+	"validationPasswordMin": "Password should contain at least 4 characters.",
+	"TokenNotFound": "TokenNotFound"
+}
