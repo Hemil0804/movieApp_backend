@@ -1,7 +1,3 @@
-# movieApp_backend
-
-
-
 # Steps to start the Project
 
 1) copy .env.example file and rename as .env file 
