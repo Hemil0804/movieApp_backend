@@ -1,4 +1,4 @@
-# Node.js Demo Project
+# Node.js Movie App Backend Server
 
 ## Table of Contents
 
